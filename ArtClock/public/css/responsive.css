@@ -1,0 +1,73 @@
+/* Tweeg - Responsive Styles */
+
+
+@media (max-width: 1366px) {
+	
+	#time-container {
+		width: 450px;
+		height: 450px;
+	}
+	.main-menu-container {
+		left: auto;
+		right: 25px;
+		bottom: auto;
+		top: 25px;
+	}
+}
+@media (max-width: 1024px) {
+	#time-container {
+		width: 350px;
+		height: 350px;
+	}
+	
+	.clock-container {
+		margin-bottom: 20px;
+	}
+	.mainarea h3 {
+		margin-bottom: 15px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	
+	.mainarea h2 {
+		padding-top: 50px;
+		font-size: 24px;
+		line-height: 29px;
+		margin-bottom: 20px;
+	}
+	
+	.mainarea-content {
+		position: relative;
+		height: auto;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		perspective: none;
+	}
+	body {
+		overflow: auto;
+	}
+	.mainarea {
+		height: auto;
+		display: block;
+	}
+	
+}
+@media (max-width: 768px) {
+	
+	.mainarea-content {
+		min-height: 0;
+		padding: 0;
+	}
+	.mainarea-content.active {
+		display: block;
+	}
+	.mainarea p {
+		margin-bottom: 15px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	
+}
